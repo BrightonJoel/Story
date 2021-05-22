@@ -6,7 +6,7 @@ open filename
 
 vim filename
 
-git status
+git status // To view the modified files
 
 git commit -m "commit Message"
 
@@ -18,4 +18,17 @@ g++ <filename> -o code.exe
 
 ./code.exe
 
-git add . // TO add all the files in the current Directory
+git add . // To add all the files in the current Directory
+
+git diff <filename> // To check the differences between the current version and the pervious version of the file.
+
+git checkout <filename> // To rollback to the previous version of this file.
+
+git remote add origin <url>
+
+git push -u origin master
+
+git rm --cached -r . // to remove the files from the staging area.
+
+github/.gitignore // This repo has been made by github team themselves for the gitignore files.
+*VERY USEFUL*
