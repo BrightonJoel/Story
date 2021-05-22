@@ -1,0 +1,21 @@
+use '' for files with weird symbols
+
+git init
+
+open filename
+
+vim filename
+
+git status
+
+git commit -m "commit Message"
+
+git log
+
+git add filename
+
+g++ <filename> -o code.exe
+
+./code.exe
+
+git add . // TO add all the files in the current Directory
