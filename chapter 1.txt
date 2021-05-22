@@ -1,1 +1,4 @@
 This is my first terminal Git Push repo.
+Now we edit this file say somthing new .
+Maybe somthing like "ALiens are fat".
+
